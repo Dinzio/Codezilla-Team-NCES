@@ -1,5 +1,6 @@
 body {
     font-family: 'Merriweather Sans', sans-serif !important;
+    overflow-x: hidden !important;
 }
 
 /*This Is The Header*/
@@ -67,6 +68,15 @@ body {
 
 
 /*This Is The Slider*/
+#carousel-example-generic a.btn.btn-default.hvr-rectangle-out{
+background-color: #c82f3d;
+color:#fff;
+border-radius: 0;
+}
+#carousel-example-generic a.btn.btn-default.hvr-rectangle-out:hover{
+    color:#fff;
+    border-radius: 0;
+}
 .carousel-caption {
     right: 15%;
     top: 500px;
@@ -370,7 +380,7 @@ body {
 }
 
 #Main_Register .btn-danger {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     background-color: #2980b9;
     border: 1px #2980b9;
     border-radius: 0;
@@ -528,7 +538,7 @@ textarea {
 }
 
 #Main_ForgetPassword label {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #Main_ForgetPassword .form-control {
@@ -555,6 +565,7 @@ textarea {
 
 #The_Login .btn-danger {
     border-radius: 0;
+    margin-bottom: 15px;
 }
 
 #The_Login input::placeholder {
