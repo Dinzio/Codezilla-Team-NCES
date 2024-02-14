@@ -77,10 +77,16 @@ border-radius: 0;
     color:#fff;
     border-radius: 0;
 }
-.carousel-caption {
-    right: 15%;
-    top: 500px;
+.carousel-caption{
+    bottom: 300px;
 }
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .carousel-caption{
+       font-size: 15px;
+       bottom: 0px;
+    }
+ }
 
 .carousel-caption h1 {
     background-color: #000;
@@ -317,8 +323,8 @@ border-radius: 0;
     background: #c82f3d;
     border-radius: 50%;
     transition: 0.8s ease-in-out;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     outline: 4px solid #ffffff;
     cursor: pointer;
 }
