@@ -68,25 +68,28 @@ body {
 
 
 /*This Is The Slider*/
-#carousel-example-generic a.btn.btn-default.hvr-rectangle-out{
-background-color: #c82f3d;
-color:#fff;
-border-radius: 0;
-}
-#carousel-example-generic a.btn.btn-default.hvr-rectangle-out:hover{
-    color:#fff;
+#carousel-example-generic a.btn.btn-default.hvr-rectangle-out {
+    background-color: #c82f3d;
+    color: #fff;
     border-radius: 0;
 }
-.carousel-caption{
+
+#carousel-example-generic a.btn.btn-default.hvr-rectangle-out:hover {
+    color: #fff;
+    border-radius: 0;
+}
+
+.carousel-caption {
     bottom: 300px;
 }
+
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-    .carousel-caption{
-       font-size: 15px;
-       bottom: 0px;
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 15px;
+        bottom: 0px;
     }
- }
+}
 
 .carousel-caption h1 {
     background-color: #000;
@@ -589,4 +592,25 @@ textarea {
 .small:hover {
 
     zoom: unset;
+}
+
+/*thank you*/
+#Thank-you img {
+    margin-top: 100px;
+}
+
+#Thank-you .btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    border-radius: 0px;
+}
+
+#Thank-you .btn:hover {
+    color: #ecf0f1;
+}
+
+#Thank-you .hvr-shutter-out-vertical:before {
+    background: #333;
 }
